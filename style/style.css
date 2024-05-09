@@ -1,0 +1,13 @@
+.container {
+    width: 1200px;
+}
+
+.header {
+    background-color: rgb(189, 189, 189);
+    height: 80px;
+}
+
+.footer {
+    background-color: rgb(80, 80, 80);
+    height: 80px;
+}
