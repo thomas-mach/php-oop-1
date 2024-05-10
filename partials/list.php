@@ -6,6 +6,8 @@
             <th scope="col">Title</th>
             <th scope="col">Language</th>
             <th scope="col">Vote</th>
+            <th scope="col">Profit</th>
+            <th scope="col">Duration</th>
         </tr>
     </thead>
     <tbody>
@@ -19,6 +21,12 @@
                 </td>
                 <td>
                     <div><?= $film->getVote(); ?></div>
+                </td>
+                <td>
+                    <div><?= $film->getProfit(); ?></div>
+                </td>
+                <td>
+                    <div><?= $film->getDuration(); ?></div>
                 </td>
             </tr>
         <?php endforeach; ?>
